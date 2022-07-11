@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    left: 0px;
+}
+
+header > nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+body{
+    background-color: white;
+    color: darkgray;
+}
+
+#user-form{
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;
+    width: 50%;
+    margin-left: 25%
+}
+
+
+.save{
+    background-color: blue;
+    color: white;
+}
+
+#user-cards {
+    display: flex;
+}
+
+#user-cards .user-grid{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ .user-profile{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33%;
+    align-items: center;
+}
+
+
+.user-name{
+    font-weight: bold;
+    text-align: center;
+    
+}
